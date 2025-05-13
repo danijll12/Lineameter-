@@ -1,0 +1,17 @@
+# Naviger til prosjektmappen
+cd /path/to/your/project
+
+# Initialiser Git i prosjektet
+git init
+
+# Legg til GitHub-repositoriet som en remote
+git remote add origin https://github.com/danijll12/lineameter.git
+
+# Legg til alle filer
+git add .
+
+# Lag en commit
+git commit -m "Initial commit"
+
+# Push til GitHub
+git push -u origin master
